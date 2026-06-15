@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react'
 import { properties, sites } from '@/lib/properties'
 import PropertyCard from '@/components/PropertyCard'
-import { ChevronDown, Sliders } from 'lucide-react'
+import { Sliders } from 'lucide-react'
 
 export default function PropertiesPage() {
   const [selectedSite, setSelectedSite] = useState<string>('')
