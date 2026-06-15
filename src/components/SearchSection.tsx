@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { Search, MapPin, Home, DollarSign } from 'lucide-react'
+import { Search, MapPin, Home, } from 'lucide-react'
 import { sites } from '@/lib/properties'
 
 export default function SearchSection() {
@@ -16,7 +16,7 @@ export default function SearchSection() {
     if (selectedSite) params.append('site', selectedSite)
     if (selectedType) params.append('type', selectedType)
     if (minBeds) params.append('beds', minBeds)
-    
+
     router.push(`/properties?${params.toString()}`)
   }
 
