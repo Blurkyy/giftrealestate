@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center font-bold">
                 <Image
-                  src="/logo.png"
+                  src="/LOGO.png"
                   alt="Logo"
                   width={100}
                   height={40}
