@@ -8,17 +8,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        p primary: {
+        primary: {
           50: '#f0f7f3',
           100: '#d4eee3',
           200: '#a8dcc7',
           300: '#7ccaab',
           400: '#50b88f',
-          500: '#2D9B5F',  // Main brand green (bright)
-          600: '#259055',
-          700: '#1d854b',
-          800: '#157a41',
-          900: '#0d6f37',
+          500: '#0b4f2aff',  // Main brand green (bright)
+          600: '#0a6230ff',
+          700: '#165e36ff',
+          800: '#0d542bff',
+          900: '#143a25ff',
         },
         secondary: {
           50: '#fef2f2',
