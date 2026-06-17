@@ -78,10 +78,10 @@ export default function Footer() {
                 <Phone className="w-4 h-4" />
                 +251983468888
               </a>
-              <a href="mailto:zelealemtesfa8@gmail.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition">
+              <a href="mailto:addishomesfinder@gmail.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition">
                 <Mail className="w-4 h-4" />
                 <span className="text-sm">
-                  zelealemtesfa8@gmail.com
+                  addishomesfinder@gmail.com
                 </span>
               </a>
               <div className="flex items-center gap-2 text-gray-400">
