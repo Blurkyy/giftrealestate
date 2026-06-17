@@ -97,11 +97,10 @@ export default function PropertyDetailPage({ params }: PropertyDetailPageProps) 
                   <button
                     key={index}
                     onClick={() => setSelectedImageIndex(index)}
-                    className={`relative aspect-video rounded-lg overflow-hidden border-2 transition ${
-                      index === selectedImageIndex
-                        ? 'border-primary-500'
-                        : 'border-gray-300 hover:border-gray-400'
-                    }`}
+                    className={`relative aspect-video rounded-lg overflow-hidden border-2 transition ${index === selectedImageIndex
+                      ? 'border-primary-500'
+                      : 'border-gray-300 hover:border-gray-400'
+                      }`}
                   >
                     <Image
                       src={image}
@@ -200,23 +199,23 @@ export default function PropertyDetailPage({ params }: PropertyDetailPageProps) 
               <h3 className="text-lg font-bold mb-4">Quick Contact</h3>
               <div className="space-y-3">
                 <a
-                  href="tel:+251921878641"
+                  href="tel:+251983468888"
                   className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                 >
                   <Phone className="w-5 h-5 text-primary-600" />
                   <div>
                     <div className="text-xs text-gray-600">Call Us</div>
-                    <div className="font-semibold">+251 921878641</div>
+                    <div className="font-semibold">+251983468888</div>
                   </div>
                 </a>
                 <a
-                  href="mailto:giftrealestateofficialmd@gmail.com"
+                  href="mailto:addishomesfinder@gmail.com"
                   className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
                 >
                   <Mail className="w-5 h-5 text-primary-600" />
                   <div>
                     <div className="text-xs text-gray-600">Email</div>
-                    <div className="font-semibold text-sm">gift@realestateethiopia.com</div>
+                    <div className="font-semibold text-sm">addishomesfinder@gmail.com</div>
                   </div>
                 </a>
               </div>
