@@ -121,7 +121,7 @@ export default function Footer() {
               <Instagram className="w-5 h-5" />
             </a>
             <a
-              href="@AdsisHomesFinder"
+              href="https://t.me/AdsisHomesFinder"
               className="w-10 h-10 rounded-full bg-gray-800 hover:bg-primary-600 flex items-center justify-center transition"
               aria-label="Telegram"
               target="_blank"
