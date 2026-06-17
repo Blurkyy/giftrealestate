@@ -27,13 +27,13 @@ export default function CTA() {
               </a>
 
               <a
-                href="mailto:zelealemtesfa8@gmail.com"
+                href="mailto:addishomesfinder@gmail.com"
                 className="flex items-center gap-3 p-4 bg-white/10 rounded-lg hover:bg-white/20 transition"
               >
                 <Mail className="w-6 h-6" />
                 <div>
                   <div className="text-sm opacity-75">Email Us</div>
-                  <div className="font-bold">zelealemtesfa8@gmail.com</div>
+                  <div className="font-bold">addishomesfinder@gmail.com</div>
                 </div>
               </a>
 
