@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://giftrealestateeth.com/sitemap.xml',
+        sitemap: 'https://giftrealestateet.com/sitemap.xml',
     }
 }
