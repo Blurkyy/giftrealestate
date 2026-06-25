@@ -4,15 +4,15 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'AddisHomesFinder - Find Your Perfect Property',
-  description: 'Discover exceptional properties in Addis Ababa. From luxury villas to commercial spaces, find your perfect home with AddisHomesFinder.',
+  title: 'Gift Real Estate - Find Your Perfect Property',
+  description: 'Discover exceptional properties in Addis Ababa. From luxury villas to commercial spaces, find your perfect home with Gift Real Estate.',
   keywords: 'real estate, properties, apartments, villas, Addis Ababa, Ethiopia',
-  authors: [{ name: 'AddisHomesFinder' }],
+  authors: [{ name: 'Gift Real Estate' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://addishomesfinder.com',
-    title: 'AddisHomesFinder - Find Your Perfect Property',
+    title: 'Gift Real Estate - Find Your Perfect Property',
     description: 'Discover exceptional properties in Addis Ababa',
   },
 }
