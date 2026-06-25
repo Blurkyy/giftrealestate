@@ -23,7 +23,7 @@ export default function Header() {
               />
             </div>
             <div className="hidden sm:block">
-              <div className="text-lg font-bold text-gray-900">AddisHomesFinder</div>
+              <div className="text-lg font-bold text-gray-900">Gift Real Estate</div>
               <div className="text-xs text-primary-600">Find Your Home</div>
             </div>
           </Link>
